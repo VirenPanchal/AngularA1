@@ -1,0 +1,41 @@
+<div>
+    <h2 [ngStyle]="{ 
+        'textAlign': 'center',
+        'padding': '7px',
+        'fontWeight': 'bolder',
+        'fontStyle': 'oblique',
+        'fontFamily': 'cursive',
+        'background' : 'lightblue',
+        'border-top': '2px solid red',
+          'border-bottom': '2px solid red' ,
+        'fontVariant': 'small-caps',
+        'color': 'black',
+         }">
+          My Name :{{panvirenMe.panvirenName}}
+    </h2>
+  
+    <h2 [ngStyle]="{
+        'textAlign': 'center',
+        'padding':'10px',
+        'background':'lightyellow',
+        'fontFamily': 'cursive',
+         'border-top': '2px solid red',
+          'border-bottom': '2px solid red' ,
+          'fontWeight': 'bolder',
+        }">
+          Email :{{ panvirenMe.panvirenEmail }}
+        </h2>
+    
+  
+    <h2 [ngStyle]="{
+        'textAlign': 'center',
+        'padding':'5px',
+        'background':'lightgreen',
+        'fontFamily': 'cursive',
+         'border-top': '2px solid red',
+          'border-bottom': '2px solid red' ,
+          'fontWeight': 'bolder',
+         }">
+          Sheridan Home Campus :{{ panvirenMe.panvirenCampus | uppercase }}</h2>
+   
+  </div>
