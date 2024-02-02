@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Input } from '@angular/core';
+import { panvirenCountry } from '../myClasses/panviren';
 
 @Component({
   selector: 'app-panviren-country',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './panviren-country.component.css'
 })
 export class PanvirenCountryComponent {
-
+        @Input() panvirenData!:panvirenCountry;
 }
