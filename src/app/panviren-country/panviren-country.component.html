@@ -1,16 +1,47 @@
-<div>
-    <h2>
-      Country Name / Country ID
+
+    <h2 [ngStyle]="{
+      'textAlign': 'center',
+      'padding': '10px',
+      'fontWeight': 'bolder',
+      'fontStyle': 'oblique',
+      'fontFamily': 'cursive',
+      'background' : 'orange',
+      'border-top': '2px solid red',
+        'border-bottom': '2px solid red' ,
+      'fontVariant': 'small-caps',
+      'color': '#000080',
+         }">
+          Country Name: {{ panvirenData.panvirenCountry}}
     </h2>
-    <hr>
-    <p [ngStyle]="{'font-style': 'italic', 'background-color': '#EFEFEF', 'color': '#333'}">
-      Capital: {{ panvirenData.panvirenCapitalCity}}
-    </p>
-    <hr>
-    <h2>
-      Average Salary
+
+    <h2 [ngStyle]="{
+      'textAlign': 'center',
+      'padding': '7px',
+      'fontWeight': 'bolder',
+      'fontStyle': 'oblique',
+      'fontFamily': 'cursive',
+      'background' : 'white',
+      'border-top': '2px solid red',
+        'border-bottom': '2px solid red' ,
+      'fontVariant': 'small-caps',
+      'color': 'black',
+         }">
+          Country Capital: {{ panvirenData.panvirenCapitalCity}}
     </h2>
-    <p>
-    </p>
-  </div>
+   
+    <h2 [ngStyle]="{
+      'textAlign': 'center',
+      'padding': '4px',
+      'fontWeight': 'bolder',
+      'fontStyle': 'oblique',
+      'fontFamily': 'cursive',
+      'background' : 'green',
+      'border-top': '2px solid red',
+        'border-bottom': '2px solid red' ,
+      'fontVariant': 'small-caps',
+      'color': 'white',
+    }">
+      Average Salary: {{ panvirenData.panvirenAverageSalary}} Rupees
+    </h2>
+    
   

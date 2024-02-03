@@ -24,14 +24,16 @@ export class AppComponent {
     CTRYpanviren:panvirenCountry ={
       panvirenCountry: 'India',
       panvirenCountryID: 356,
-      panvirenCapitalCity: 'Ahmedabad',
-      panvirenAverageSalary: 22000,
+      panvirenCapitalCity: 'Delhi',
+      panvirenAverageSalary: 27200,
       panvirenFlagImage: 'images/myimage.png'
     }
 
     PICSpanviren:panvirenPics={
       panvirenImage: 'images/myimage.png',
-      panvirenFlagImage: 'images/myimage.png'
+      panvirenFlagImage: 'images/myimage.png',
+      panvirenImageName: 'VIREN',
+      panvirenFlagImageName: 'INDIA'
     }
 
     }

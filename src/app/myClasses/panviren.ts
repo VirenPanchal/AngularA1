@@ -21,4 +21,7 @@ export class panvirenCountry{
 export class panvirenPics{
     panvirenImage!: string;
     panvirenFlagImage!: string;
+    panvirenImageName!: string;
+    panvirenFlagImageName!:string;
+
 }

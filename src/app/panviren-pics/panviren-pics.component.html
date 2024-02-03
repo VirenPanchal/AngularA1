@@ -1,1 +1,19 @@
-<p>panviren-pics works!</p>
+<section class="image-container">
+    <div class="panvirenPersonalCSS">
+        <img src="../../assets/images/myimage.png" width="100%" height="200" alt="Personal Image" class="round-image">
+        <p [ngStyle]="{
+            'textAlign': 'center',
+            'fontFamily': 'cursive',
+        }">{{ panvirenFlag.panvirenImageName }}</p>
+    
+    </div>
+
+    <div class="panvirenCountryCSS">
+        <img src="../../assets/images/flag.jpg" width="100%" height="200" alt="Country Flag">
+        <p [ngStyle]="{
+            'textAlign': 'center',
+            'fontFamily': 'cursive',
+        }">{{ panvirenFlag.panvirenFlagImageName }}</p>
+
+    </div>
+</section>
