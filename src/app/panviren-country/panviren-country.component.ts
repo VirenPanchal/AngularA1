@@ -8,5 +8,5 @@ import { panvirenCountry } from '../myClasses/panviren';
   styleUrl: './panviren-country.component.css'
 })
 export class PanvirenCountryComponent {
-        @Input() panvirenData!:panvirenCountry;
+        @Input() panvirenCdata!:panvirenCountry;
 }

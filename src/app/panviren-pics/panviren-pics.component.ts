@@ -8,7 +8,7 @@ import { panvirenPics } from '../myClasses/panviren';
   styleUrl: './panviren-pics.component.css'
 })
 export class PanvirenPicsComponent {
-  @Input() panvirenFlag!:panvirenPics;
+  @Input() panvirenFdata!:panvirenPics;
  
 
 

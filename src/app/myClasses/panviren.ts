@@ -6,8 +6,6 @@ export class panvirenPersonal{
     panvirenCampus!:string;
     panvirenImageName!:string;
     panvirenCurrentDate!:Date; 
-
-
 }
 
 export class panvirenCountry{
@@ -23,5 +21,4 @@ export class panvirenPics{
     panvirenFlagImage!: string;
     panvirenImageName!: string;
     panvirenFlagImageName!:string;
-
 }

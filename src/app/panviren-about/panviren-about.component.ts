@@ -8,6 +8,6 @@ import { panvirenPersonal } from '../myClasses/panviren';
   styleUrl: './panviren-about.component.css'
 })
 export class PanvirenAboutComponent {
-  @Input() panvirenMe!:panvirenPersonal;
+  @Input() panvirenMdata!:panvirenPersonal;
 
 }

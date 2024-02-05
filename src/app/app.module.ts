@@ -9,6 +9,7 @@ import { HeaderPanvirenComponent } from './header-panviren/header-panviren.compo
 import { PanvirenAboutComponent } from './panviren-about/panviren-about.component';
 import { PanvirenCountryComponent } from './panviren-country/panviren-country.component';
 import { PanvirenPicsComponent } from './panviren-pics/panviren-pics.component';
+import { FooterPanvirenComponent } from './footer-panviren/footer-panviren.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PanvirenPicsComponent } from './panviren-pics/panviren-pics.component';
     HeaderPanvirenComponent,
     PanvirenAboutComponent,
     PanvirenCountryComponent,
-    PanvirenPicsComponent
+    PanvirenPicsComponent,
+    FooterPanvirenComponent
   ],
   imports: [
     BrowserModule,
